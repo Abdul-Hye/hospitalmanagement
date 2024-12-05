@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="doctorloginC.css">
+</head>
+<body>
+    <header>
+        <span class="icon">🩺<h1>Doctor</h1></span>
+        <nav>
+            <button button onclick="window.location.href='homepage.html';" class="nav-button">Home</button>
+            <button onclick="window.location.href='signup1.html';" class="nav-button">Signup</button>
+        </nav>
+    </header>
+    <main>
+        <div class="login-form-container">
+            <h2>Doctor Login</h2>
+            <form action="#" method="POST" class="login-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="login-submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hospital Management System</p>
+    </footer>
+</body>
+</html>
